@@ -2,7 +2,7 @@
 ;;;author: Canaan McKenzie 2023
 
 (deftheme ponyo
-  "A dark theme inspired by sushi and chinese colors")
+  "A dark theme inspired by sushi")
 
 (let (
       ;;base-colors
