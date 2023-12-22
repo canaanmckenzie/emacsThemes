@@ -1,8 +1,8 @@
 ;;;package: --- A dark theme based on peach, light-blue, and gold
 ;;;author: Canaan McKenzie 2023
 
-(deftheme ponyo
-  "A dark theme inspired by sushi")
+(deftheme ponyopop
+  "A dark theme using gold, pink, and blue")
 
 (let (
       ;;base-colors
@@ -35,7 +35,7 @@
 
 
 (custom-theme-set-faces
- 'ponyo
+ 'ponyopop
  ;;generics
  `(default ((t (:background ,background :foreground ,foreground :weight light))))
  `(cursor ((t (:background ,types :foreground ,foreground))))
@@ -106,4 +106,4 @@
    'custom-theme-load-path
    (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'ponyo)
+(provide-theme 'ponyopop)
