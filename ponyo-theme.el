@@ -63,7 +63,7 @@
 `(lsp-ui-doc-background ((t (:background ,background :foreground ,strings))))
 ;;`(lsp-ui-doc-header ((t (:background ,background :foreground ,strings))))
 `(lsp-ui-doc-border ((t (:foreground ,types))))
-`(lsp-details-face ((t (:background ,background))))
+`(lsp-details-face ((t (:background ,background :foreground ,comments))))
 `(lv-separator ((t (:background ,background))))
 `(widget-field ((t (:background ,background))))
 `(widget-single-line-field ((t (:background ,background))))
